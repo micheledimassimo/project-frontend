@@ -1,6 +1,7 @@
 <script>
 
 import AppHeader from './components/AppHeader.vue';
+import AppBiography from './components/AppBiography.vue';
 
 export default {
   data() {
@@ -10,7 +11,8 @@ export default {
   },
  
   components: {
-    AppHeader
+    AppHeader,
+    AppBiography
   },
   methods: {
     
@@ -23,7 +25,7 @@ export default {
    
     <AppHeader />
     
-    
+    <AppBiography />
   </div>
 </template>
 

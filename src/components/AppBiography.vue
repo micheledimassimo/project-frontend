@@ -54,11 +54,7 @@ export default {
 				
 			</div>
 		</div>
-		<div>
-			<h4 class="pt-5 text-light text-uppercase">
-				Expertise
-			</h4>
-		</div>
+		
 	</section>
 	
 	

@@ -135,6 +135,8 @@ export default {
 					}
 					& :hover {
 							border: 2px solid #FCBF49;
+							transform: scale(1.1);
+							transition: 0.3s;
 						}
 					
 				}

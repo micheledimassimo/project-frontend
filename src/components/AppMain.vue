@@ -18,7 +18,7 @@ export default {
         </h4>
 		</div>
       <div class="row g-0 p-0">
-        <div class="col-4 p-0 card">
+        <div class="col-lg-4 col-md-6 col-sm-12 p-0 card">
           <div class="bg-dark text-center">
             <p class="text-light">
               Art Curator
@@ -34,7 +34,7 @@ export default {
         
         </div>
        
-        <div class="col-4 p-0">
+        <div class="col-lg-4 col-md-6 col-sm-12 p-0">
           <div class="bg-dark text-center">
             <p class="text-light">
               Managing
@@ -43,7 +43,7 @@ export default {
           <img src="https://s3-alpha-sig.figma.com/img/dce1/15ca/a193f7e421221b0eba36182d382ec3fd?Expires=1740960000&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=U75q5RzpWzDOzd1eWH~TsUxZIZH2owVh9r0Yfc89BcagUWL~lbRy~M1ocgf8GTcqrPzW2bOaNYmseStPndxNpHF47G0YADeECcgOLRlorSaVzV0QLn1IiDuaPmo8T6BnCz2~7Eg2H5ebvW2kbFg4a4qWSE6LnEFydk8kqoafuDej4fKEkFk4-Hr45Sm9lc61jz-mlYhYPvTiJRkd33FnSffieply0qSbDAYtjQVTBi3rtB7Xm7lBhfHjc-kgPe3I4g6bgyei1emC3X6oD1iG5XsJeKXL0MB1N6uA2a-seaSOax5ZCq1A-UU8E6P-fV5zwH7YXOzsujTOuxdwfEwNvA__" alt="immagine 2">
         </div>
 
-        <div class="col-4 p-0">
+        <div class="col-lg-4 col-md-6 col-sm-12 p-0">
           <div class="bg-dark text-center">
             <p class="text-light">
               Politics and Journalism
@@ -55,7 +55,7 @@ export default {
       </div>
 
       <div class="row g-0">
-        <div class="col-4 p-0">
+        <div class="col-lg-4 col-md-6 col-sm-12 p-0">
           <div class="bg-dark text-center">
             <p class="text-light">
               Editing and Writing
@@ -64,7 +64,7 @@ export default {
           <img src="https://s3-alpha-sig.figma.com/img/dca7/86c2/11cd0eacde776daa3126d46a0c0bb7a5?Expires=1740960000&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=VrQOmcIwP~zE7jJMxJcTfqGd1x-zov1UhBVPhapE-LADRIjutpB0hQ6JC0RItP1Obge3TWXTnLaGf6oA-f5ODpPfzrxBhBIytgyMjpf6ZC9jZZ1SsYk7zb4YtnjXqbkHD7Is0wuqMdqDuLc2C7wUGwzfvbGPIaMF~3-NEm-512I7PFJd7WA3DUM77ZUN70WqkLmkJ69l2XohM9603TRAJn0fhEg0ZuB7IPOFBlt-~kRsES8I5TIFQwWQh5tI8bHtwTcoRnb5LWm~d52C5qTauO3AvkZa-Lg34lfrkzecWJFl0BoEWxFms0hv~TzGWDz~jX-FwEisC8UlFQNqjCNM9w__" alt="immagine 4">
         </div>
        
-        <div class="col-4 p-0">
+        <div class="col-lg-4 col-md-6 col-sm-12 p-0">
           <div class="bg-dark text-center">
             <p class="text-light">
               Strategic consultant
@@ -73,7 +73,7 @@ export default {
           <img src="https://s3-alpha-sig.figma.com/img/ce9a/0406/39cfea4944c77e31f923c1aa35367c28?Expires=1740960000&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=eQNyjdTbEAZm~sdB0-hY3XQJUrrJzaw-hiJlRPmUkrzKlMqQZKxPhNEYk38VOmxfGhNmeCMHD860VO4Cv11ZUGUxYsRm~vsKlcD06nzM9ymdyzO3-qYP2joGj57U3KTCxZGnwKJx4CJTabRW57c0u0JDTk4Po79FtK6aI3Q5lLDD8DqGXo29d028LX846~v~hIAHiS2MVS-a~D8HxidMzItGrSZw4QXrIf7CwMNqWA9ADovBEzHFhpGht2ELSNSkD6L~4JMjWVLiMdcJ~qU7WqIYjKqILExSDTirHf-shN7SlzdNAMkf2o3NnK5oZwXc5wg006gyWqmWM4FqIQvyLg__" alt="immagine 5">
         </div>
 
-        <div class="col-4 p-0">
+        <div class="col-lg-4 col-md-6 col-sm-12 p-0">
           <div class="bg-dark text-center">
             <p class="text-light">
               Strat-Up
@@ -95,7 +95,7 @@ section {
   background-color: black;
   .container-fluid {
     .row {
-      .col-4 {
+      .col-lg-4, .col-md-2, .col-sm-1 {
         position: relative;
         .bg-dark, .text-center {
           position: absolute;

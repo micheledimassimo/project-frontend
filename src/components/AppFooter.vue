@@ -30,8 +30,8 @@ export default {
           </div>
       </div>
     </div>
-    <div class="py-5">
-      <div class="row text-white text-center justify-content-around">
+    <div class="py-5 d-none d-lg-block">
+      <div class="row text-white text-center justify-content-around ">
         <div class="col-4">
           <a href="#">
             loremipsum.com
@@ -51,6 +51,41 @@ export default {
           </span>
         </div>
       </div>
+    </div>
+
+    <!--link footer mobile-->
+    <div class="text-center d-lg-none">
+      <div>
+        <a href="#">
+          loremipsum.com
+        </a>
+      </div>
+      <div>
+        <hr>
+      </div>
+      <div class="py-4">
+        <span class="text-light custom-opacity  ">
+          E-mail: info@example.com
+        </span>
+      </div>
+      <div>
+        <a href="#">
+						<i class="fa-brands fa-facebook"></i>
+					</a>
+					<a href="#">
+						<i class="fa-brands fa-twitter"></i>
+					</a>
+					<a href="#">
+						<i class="fa-brands fa-linkedin"></i>
+					</a>
+      </div>
+
+    </div>
+
+    <div id="pièpag" class="text-center text-secondary pt-4">
+      
+        © 2021 Tutti i diritti riservati - Design by MM
+      
     </div>
   </footer>
 </template>
@@ -95,9 +130,26 @@ footer {
     text-decoration: none;
     color: white;
     font-weight: bold;
+    > i {
+      padding: 30px 20px;
+      font-size: 1.5rem;
+    }
   }
   .custom-opacity {
     opacity: 0.85;
+  }
+
+  hr {
+    font-size: 5px;
+    width: 80%;
+    color: white;
+    margin: 20px auto 0;
+  }
+
+  #pièpag {
+    font-size: 0.75rem;
+    opacity: 0.8;
+    padding-bottom: 10px;
   }
 }
 

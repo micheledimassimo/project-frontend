@@ -52,7 +52,7 @@ export default {
 							Strategic consultant con un focus specifico rivolto a Corporate innovation, buisness growth e Marketing
 						</p>
 
-						<a href="#">
+						<a class="p-0" href="#">
 							<button class="my-btn">Discover &#8594;</button>
 						</a>
 					</div>
@@ -98,13 +98,8 @@ export default {
 					cursor: pointer;
 					> span:nth-child(2n) {
 						opacity: 0.7;
-					}
-					/* > a {
-						text-decoration: none;
-						color: white;
-						padding-left: 15px;
-						font-size: 1.5rem;
-					} */
+						}
+					
 				}
 				
 			}
@@ -138,20 +133,21 @@ export default {
 				}
 				a {
 					text-decoration: none;
-						.my-btn {
+					.my-btn {
 						border: 2px solid white;
 						border-radius: 10px;
 						background: transparent;
 						color: white;
-						padding: 5px 20px;
+						padding: 5px 15px;
 						text-transform: uppercase;
+						font-size: 1.1rem;
 						
 					}
 					& :hover {
-							border: 2px solid #FCBF49;
-							transform: scale(1.1);
-							transition: 0.3s;
-						}
+						border: 2px solid #FCBF49;
+						transform: scale(1.1);
+						transition: 0.3s;
+					}
 					
 				}
 			}
@@ -159,11 +155,11 @@ export default {
 	}
 }
 a {
-						text-decoration: none;
-						color: white;
-						padding-left: 25px;
-						font-size: 1.5rem;
-					}
+	text-decoration: none;
+	color: white;
+	padding-left: 25px;
+	font-size: 1.5rem;
+}
 
 
 

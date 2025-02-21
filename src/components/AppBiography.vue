@@ -40,12 +40,12 @@ export default {
 			<h3>
 				Biography
 			</h3>
-			<div class="col-6">
+			<div class="col-lg-6 col-sm-12">
 				<p>
 					Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam voluptas similique voluptates excepturi quo a rerum facere, earum unde inventore necessitatibus, quaerat fugit, at quam ipsam molestias consequatur pariatur ab? Enim reprehenderit incidunt officiis soluta, fugiat ab adipisci laudantium delectus, voluptate ea consectetur earum similique expedita itaque saepe? Delectus excepturi libero minus dolorum, perspiciatis quia sint explicabo odio. Quia quibusdam earum numquam assumenda laboriosam consequatur quam doloremque vitae, molestias laborum blanditiis beatae fuga saepe laudantium illum iure minima eos accusantium harum. Totam tempore tenetur, quas consequatur delectus possimus non quaerat ad ex minima maiores atque vitae, corrupti nam perferendis? Aut.
 				</p>
 			</div>
-			<div class="col-6">
+			<div class="col-lg-6 col-sm-12">
 				<p>
 					Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa eius consequuntur asperiores obcaecati eaque, ipsa dicta! Aliquid veritatis fugit beatae sequi, amet nam modi optio culpa placeat quas nobis ut ex unde totam dicta sed praesentium facere nisi dolorem iste earum, assumenda quaerat molestiae! Impedit id eligendi placeat illum debitis expedita iure praesentium doloremque repellat vitae, quos maiores beatae autem dolore incidunt libero aliquid voluptates cumque ratione quia nam! Deleniti similique consequuntur pariatur quia quam repellendus animi officiis nulla cupiditate corporis dolores, non nemo, vitae optio nostrum! At fugit quidem, excepturi asperiores neque illo expedita, explicabo quos nulla voluptatibus perspiciatis.
 				</p>
@@ -138,7 +138,27 @@ export default {
 				
 		}
 		
+@media screen and (max-width: 768px) {
+	section {
+		.container-sm:first-child {
+			padding: 0px;
+			p {
+				padding: 10px 10px;
+				text-align: left;
+				font-size: 0.8rem;
+			}
+		}
 
+		.container-sm:nth-child(2n) {
+			padding: 0px;
+			p {
+				padding: 10px 10px;
+				text-align: left;
+				font-size: 0.8rem;
+			}
+		}
+	}
+}
 
 
 

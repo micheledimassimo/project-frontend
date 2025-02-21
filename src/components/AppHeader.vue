@@ -13,8 +13,8 @@ export default {
 	<header>
 		<div class="container-fluid text-light">
 			<!--navbar-->
-			<div class="container-lg ">
-				<nav>
+			<div class="container-lg p-0">
+				<nav class="px-0">
 					<ul class="">
 						<li>
 							<h5 >loremipsum.it</h5>
@@ -57,7 +57,7 @@ export default {
 						</a>
 					</div>
 				</div>
-				<div class="d-md-none py-4 ps-3">
+				<div class="d-md-none py-4">
 					<a href="#">
 						<i class="fa-brands fa-facebook"></i>
 					</a>
@@ -162,5 +162,22 @@ a {
 }
 
 
-
+@media screen and (max-width: 768px) {
+	.container-fluid {
+		
+		.container-sm {
+			.row {
+				.col-lg-6:first-child {
+					padding: 30px;
+					p {
+						font-size: 3rem;
+					}
+				}
+				.col-lg-6:nth-child(2n) {
+					padding: 30px;
+				}
+			}
+		}
+	}
+}
 </style>
